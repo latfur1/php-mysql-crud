@@ -92,7 +92,7 @@ class Student
     
     public function delete_student_info_by_id($id){
         
-       if(isset($id)&& $id>50){
+       if(isset($id)){
        $student_id= mysqli_real_escape_string($this->conn,trim($id));
 
        $sql="DELETE FROM  students  WHERE student_id =$student_id";
