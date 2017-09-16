@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
 ?>
 <div class="container " > 
     <div class="row content">
-        <a type="button" href="index.php"  class="button button-purple mt-12 pull-right">View Student List</a> 
+        <a href="index.php"  class="button button-purple mt-12 pull-right">View Student List</a> 
         <h3>Update Student Info</h3>
         <?php
         if (isset($_SESSION['message'])) {

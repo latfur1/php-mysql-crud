@@ -21,7 +21,7 @@
        
           
            
-             <a type="button" href="index.php"  class="button button-purple mt-12 pull-right">View Student List</a> 
+             <a  href="index.php"  class="button button-purple mt-12 pull-right">View Student List</a> 
      
  <h3>View Student Info</h3>
        

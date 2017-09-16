@@ -6,7 +6,7 @@ if (isset($_POST['create_student'])) {
 ?>
 <div class="container"> 
     <div class="row content">
-        <a type="button" href="index.php"  class="button button-purple mt-12 pull-right">View Student List</a> 
+        <a  href="index.php"  class="button button-purple mt-12 pull-right">View Student List</a> 
         <h3>Create Student Info</h3>
         <hr/>
         <form method="post" action="">
