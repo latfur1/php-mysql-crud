@@ -4,7 +4,7 @@ $student_list = $student_obj->student_list();
 ?>
 <div class="container " > 
     <div class="row content">
-        <a type="button" href="create-student-info.php"  class="button button-purple mt-12 pull-right">Create Student</a> 
+        <a  href="create-student-info.php"  class="button button-purple mt-12 pull-right">Create Student</a> 
         <h3>Student List</h3>
         <?php
         if (isset($_SESSION['message'])) {
