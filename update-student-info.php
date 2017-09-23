@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
             echo $student_info['country'];
         } ?>" id="country" class="form-control"  maxlength="50">
             </div>
-            <input type="submit" class="button button-green  pull-right" name="update_student" value="Submit"/>
+            <input type="submit" class="button button-green  pull-right" name="update_student" value="Update"/>
         </form> 
     </div>
 </div>
